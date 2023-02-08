@@ -7,3 +7,5 @@ This is an attempt to learn classic FORTRAN with modern resources. I will upload
 - FORTRAN II: https://archive.computerhistory.org/resources/text/Fortran/102653989.05.01.acc.pdf
 - FORTRAN III: not found yet
 - FORTRAN IV:  not found yet
+
+Another good source of information is the Wikipedia page, which contains some basic examples: https://en.wikipedia.org/wiki/Fortran
