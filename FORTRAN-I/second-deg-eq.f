@@ -1,0 +1,29 @@
+      PRINT 10
+  10  FORMAT (12HINTRODUCE A:)
+      READ 20, FA
+  20  FORMAT (F3.1)
+
+      PRINT 30
+  30  FORMAT (12HINTRODUCE B:)
+      READ 40, FB
+  40  FORMAT (F3.1)
+
+      PRINT 50
+  50  FORMAT (12HINTRODUCE C:)
+      READ 60, FC
+  60  FORMAT (F3.1)
+  
+C     X = (-B +- SQRT(B^2 - 4AC))/2A
+      FSQ = FB*FB - 4*FA*FC
+      IF (FSQ<0) GO TO 80
+  70  FA1 = -FB-FSQ
+      FA1 = FA1/(2*FA)
+      FA2 = -FB+FSQ
+      FA2 = FA2/(2*FA)
+      PRINT 75, FA1, FA2
+  75  FORMAT (32HTHE SOLUTION OF THE EQUATION IS F4.1, 1H F4.1)
+      GO TO 99
+  80  PRINT 90
+  90  FORMAT (21HTHE ROOT IS NEGATIVE!)
+      GO TO 99
+  99  END
