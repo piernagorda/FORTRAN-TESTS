@@ -10,9 +10,9 @@ Since the very first manual until the 1990 revision, the language was called FOR
 * FORTRAN 66
 * FORTRAN 77 
 
-I would include FORTRAN III in that list, but the manual was never made public. It included some new features like being able to use inline assembly code, but since it was never an official release, it won't be included. All the features of FORTRAN III were included in FORTRAN IV.  
+FORTRAN III is not in that list since the manual was never made public. It included some new features like inline assembly code, and those features were naturally included in FORTRAN IV.  
 
-In the future, I will create another repository targetting modern Fortran (from Fortran 90 all the way up until Fortran 2018 (the latest version)). I would also love to dedicate some time to code High Performance Fortran code since it can be one of the fastest languages availables. However, as I said, it will be a future project. For now, I will be focusing on the legacy versions. 
+In the future, I will create another repository targetting modern Fortran (from Fortran 90 all the way up until Fortran 2018, the latest version). I would also love to dedicate some time to code High Performance Fortran since it can be one of the fastest languages availables. However, as I said, it will be a future project. For now, I will be focusing on the legacy versions. 
 
 
 ## FORTRAN I
